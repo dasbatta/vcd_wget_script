@@ -4,5 +4,5 @@ mv getcert rootint.crt &&
 openssl x509 -in rootint.crt -out rootint.pem &&
 cp rootint.pem /etc/ssl/certs/ &&
 cp rootint.crt /usr/local/share/ca-certificates/ &&
-sudo update-ca-certificates && 
+sudo update-ca-certificates
 ## ctr image pull harborstgsvcs.telmex.com/library/nginx:latest
