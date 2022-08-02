@@ -1,5 +1,5 @@
 cd /tmp &&
-chmod 755 tanzustg-ca* &&
+chmod 755 tanzustg* &&
 cp tanzustg-ca.pem /etc/ssl/certs/ &&
 cp tanzustg-ca.crt /usr/local/share/ca-certificates/ &&
 sudo update-ca-certificates &&
